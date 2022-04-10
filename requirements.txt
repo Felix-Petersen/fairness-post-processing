@@ -1,0 +1,12 @@
+numpy==1.19.5
+torch==1.8.0
+torchvision==0.9.0
+
+# If CUDA version is too old, this probably works:
+# pip install torch==1.8.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html && pip install torchvision==0.9.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
+tqdm==4.61.0
+pandas==1.1.5
+
+scikit-learn==0.24.2
+#cvxpy
